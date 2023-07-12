@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOSAKA</title>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/foodhub.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--
+      - main container
+    -->
+
+  <div class="container">
+
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-wrapper">
+
+          <img src="./assets/images/dosakalogo.png" alt="shopping cart icon" width=9%>
+
+
+          <ul class="navbar-nav">
+
+            <li>
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="./Locations.html" class="nav-link">Locations</a>
+            </li>
+
+            <li>
+              <select class="xyz" id="selectbox" name="" onchange="javascript:location.href = this.value;">
+                <option href="#services" class="xyz">About</option>
+                <option value="MissionVs.html" class="xyz">Mission & Vision</option>
+                <option value="DirectorProfile.html" class="xyz">Director's Profile</option>
+              </select>
+            </li>
+
+            <li>
+              <a href="./Franchise.html" class="nav-link">Franchise</a>
+            </li>
+
+            <li>
+              <a href="./Menu.html" class="nav-link">Our Menu</a>
+            </li>
+
+            <li>
+              <a href="./Testimonials.html" class="nav-link">Testimonials</a>
+            </li>
+
+          </ul>
+
+          <div class="navbar-btn-group">
+
+            <button class="menu-toggle-btn" onclick="navToggleFunc()">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+
+    </header>
+    <main>
+
+      <!--
+          - #HOME SECTION
+        -->
+      <section class="home" id="home">
+
+        <div class="home-left">
+
+
+          <p class="home-subtext">வணக்கம்</p>
+          <p class="home-subtext">Vannakam</p>
+
+
+          <h1 class="main-heading">We do not cook, we get to your authentic south Indian emotions!</h1>
+
+          <p class="home-text">
+            We're are Jaipur's Favourite South Indian Restaurant, serving authentic dishes since 2019!</p>
+
+        </div>
+
+        <div class="home-right">
+
+          <img src="./assets/images/JinniDosa.jpg" alt="food image" class="food-img food-1" width="200" loading="lazy"
+            style="border-radius: 50%">
+          <img src="./assets/images/_DSC8549-Editheader.jpg" alt="food image" class="food-img food-2" width="300"
+            height="300" loading="lazy" style="border-radius: 50%;">
+          <img src="./assets/images/food3.1.jpg" alt="food image" class="food-img food-3" width="200" loading="lazy"
+            style="border-radius: 50%;">
+          <img src="./assets/images/dialog-2.svg" alt="dialog" class="dialog dialog-2" width="230">
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-1" width="25">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-2" width="15">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-3" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-4" width="60">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+          - #ABOUT SECTION
+        -->
+
+      <section class="aboutMV" id="about">
+
+        <div class="about-right">
+
+          <h2 class="section-title" style="text-align: center;max-width: 100%; color: #2C5E1A;">Mission & Visison</h2>
+
+          <p class="section-text" style="text-align: justify; max-width: 100%; width: 80%;  font-size: 30px; margin: 0 auto;">
+            Our mission is to serve the best quality food to our guests, while our
+            team works tirelessly to expand and diversify our business which will
+            enrich the lives of our guests ,shareholder and stake holders.
+
+            our vision is to build dosaka to an extent where it will stay in the
+            hearts forever and should setup a legacy, through which young
+            minds could get motivativated.
+          </p>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+  </div>
+
+  <footer>
+    <div class="row">
+      <div class="footer-wrapper">
+        <div class="col-md-1 footer-padding col-sm-12">
+          <a href="#">
+            <img src="./assets/images/Dosaka Logo.png" alt="logo" class="footer-brand" width="130">
+          </a>
+        </div>
+        <div class="social-link col-md-1 footer-padding col-sm-6 ">
+          <p style="text-align: left; max-width: 100%; font-size: 20px;color: white;">Follow Us</p>
+          <div class="line_foo">________</div>
+          <a href="#" class="twitter-link" text-decoration="none">
+            <ion-icon name="logo-twitter"></ion-icon>
+            <p class="footer-content">Twitter</p>
+          </a>
+          <a href="#" class="twitter-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <p class="footer-content">Instagram</p>
+          </a>
+          <a href="#" class="twitter-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <p class="footer-content">Facebook</p>
+          </a>
+        </div>
+
+        <div class="social-link col-md-4 footer-padding col-sm-6">
+          <p style="text-align: left; max-width: 100%; font-size: 20px;color: white;">Contact Us</p>
+          <div class="line_foo">_______</div>
+
+          <a href="#" class="twitter-link">
+            <ion-icon name="call-outline"></ion-icon>
+            <p class="footer-content">+91-7073779988</p>
+          </a>
+          <a href="#" class="twitter-link">
+            <ion-icon name="mail-outline"></ion-icon>
+            <p class="footer-content">dosakajaipur@gmail.com</p>
+          </a>
+          <a href="#" class="twitter-link">
+            <ion-icon name="location-outline" style="font-size: 3rem;" ></ion-icon>
+            <p class="footer-content">33, Mahavir Marg, C-Scheme, Sangram Colony, Ashok Nagar, Jaipur, Rajasthan 302001</p>
+          </a>
+        </div>
+
+
+        <div class="col-md-1 footer-padding col-sm-6">
+          <p class="copyright" style="color: white;">&copy; All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/foodhub.js"></script>
+
+</body>
+
+</html>

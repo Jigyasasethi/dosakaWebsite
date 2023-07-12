@@ -1,29 +1,29 @@
-/*-----------------------------------*\ 
+/*-----------------------------------*\
   #media_query.css
 \*-----------------------------------*/
 
 /**
- * copyright 2022 @codewithsadee 
+ * copyright 2022 @codewithsadee
  */
 
 
 
 
 
-/*-----------------------------------*\ 
+/*-----------------------------------*\
   #for large mobile
 \*-----------------------------------*/
 
 @media (min-width: 450px) {
 
   /**
-   * CUSTOM PROPERTY 
+   * CUSTOM PROPERTY
    */
 
   :root {
 
     /**
-     * typography 
+     * typography
      */
 
     --fs-1: 54px;
@@ -35,7 +35,7 @@
 
 
   /**
-   * HOME 
+   * HOME
    */
 
   .home-text {
@@ -63,20 +63,20 @@
 
 
 
-/*-----------------------------------*\ 
+/*-----------------------------------*\
   #for tablat
 \*-----------------------------------*/
 
 @media (min-width: 570px) {
 
   /**
-   * CUSTOM PROPERTY 
+   * CUSTOM PROPERTY
    */
 
   :root {
 
     /**
-     * spacing 
+     * spacing
      */
 
     --mw: 550px;
@@ -106,20 +106,20 @@
 
 
 
-/*-----------------------------------*\ 
+/*-----------------------------------*\
   #for large tablat
 \*-----------------------------------*/
 
 @media (min-width: 768px) {
 
   /**
-   * CUSTOM PROPERTY 
+   * CUSTOM PROPERTY
    */
 
   :root {
 
     /**
-     * typography 
+     * typography
      */
 
     --fs-1: 72px;
@@ -127,7 +127,7 @@
     --fs-3: 22px;
 
     /**
-     * spacing 
+     * spacing
      */
 
     --mw: 720px;
@@ -145,7 +145,7 @@
 
 
   /**
-   * HEADER 
+   * HEADER
    */
 
   .cart-item .product-price { font-size: 18px; }
@@ -153,7 +153,7 @@
 
 
   /**
-   * HOME 
+   * HOME
    */
 
   .shape-1 { top: 27%; }
@@ -171,7 +171,7 @@
 
 
   /**
-   * ABOUT 
+   * ABOUT
    */
 
   .about-left .img-box { aspect-ratio: 5 / 3; }
@@ -179,7 +179,7 @@
 
 
   /**
-   * SERVICES 
+   * SERVICES
    */
 
   .service-card { display: grid; }
@@ -195,7 +195,7 @@
 
 
   /**
-   * PRODUCTS 
+   * PRODUCTS
    */
 
   .products-grid {
@@ -207,7 +207,7 @@
 
 
   /**
-   * TESTIMONIALS 
+   * TESTIMONIALS
    */
 
   .testimonials-grid { grid-template-columns: 1fr 1fr; }
@@ -218,20 +218,20 @@
 
 
 
-/*-----------------------------------*\ 
+/*-----------------------------------*\
   #for desktop
 \*-----------------------------------*/
 
 @media (min-width: 1024px) {
 
   /**
-   * CUSTOM PROPERTY 
+   * CUSTOM PROPERTY
    */
 
   :root {
 
     /**
-     * spacing 
+     * spacing
      */
 
     --py: 100px;
@@ -242,7 +242,7 @@
 
 
   /**
-   * HEADER 
+   * HEADER
    */
 
   .navbar { padding: 35px 30px; }
@@ -277,7 +277,7 @@
 
 
   /**
-   * HOME 
+   * HOME
    */
 
   .home {
@@ -296,7 +296,7 @@
 
 
   /**
-   * ABOUT 
+   * ABOUT
    */
 
   .about {
@@ -323,7 +323,7 @@
 
 
   /**
-   * SERVICES 
+   * SERVICES
    */
 
   .services {
@@ -334,7 +334,7 @@
 
 
   /**
-   * PRODUCTS 
+   * PRODUCTS
    */
 
   .products-grid { grid-template-columns: repeat(3, 1fr); }
@@ -342,7 +342,7 @@
 
 
   /**
-   * TESTIMONIALS 
+   * TESTIMONIALS
    */
 
   .testimonials { padding-bottom: 200px; }
@@ -350,7 +350,7 @@
 
 
   /**
-   * FOOTER 
+   * FOOTER
    */
 
   .footer-wrapper {
@@ -364,20 +364,20 @@
 
 
 
-/*-----------------------------------*\ 
+/*-----------------------------------*\
   #for large desktop
 \*-----------------------------------*/
 
 @media (min-width: 1200px) {
 
   /**
-   * CUSTOM PROPERTY 
+   * CUSTOM PROPERTY
    */
 
   :root {
 
     /**
-     * spacing 
+     * spacing
      */
 
     --mw: 1150px;
@@ -387,7 +387,7 @@
 
 
   /**
-   * SERVICES 
+   * SERVICES
    */
 
   .services { grid-template-columns: repeat(3, 1fr); }
